@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'bangla';
+	src:url('fonts/kalpurush.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../mediaasset/covers/default.jpg') 50% 50% no-repeat rgb(249, 249, 249, 0.7);
+}
+#bodycontainer {
+    margin-bottom: 50px;
+}
+#header {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+#navmenu {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+/* nav menu */
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #000;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+}
+ul li a {
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+li a:hover {
+    background-color: rgb(212, 212, 212);
+    border-radius: 3px;
+}
+.liactive {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 600;
+}
+#navitem {
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 0px;
+}
+#containbody {
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 80px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    overflow: auto;
+    text-align: center;
+}
+#quizbody {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    min-height: 180px;
+    padding: 10px;
+}
+select {
+    color: #44443d;
+	padding: 0px;
+	border: 1px solid rgb(203, 203, 203);
+    height: 30px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    text-align: left;
+	background-color: #f5f5f5;
+    max-width: 250px;
+    border-radius: 7px;   
+    margin-top: 3px;
+    margin-left: 3px;
+}
+option {
+    padding: 10px;
+}
+.quizbutton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid #5a6dff;
+    background-color: #5a6dff;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.quizbutton:hover {
+    background-color: #4c61ff;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table td,table th{
+	padding: 0px 15px 10px 15px;
+  	text-align: left;
+	font-size:16px;
+}
+
+table tr{
+	border:1px solid #ddd;
+	margin-bottom: 15px;
+	display: block;
+	border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-left: 3px solid orangered;
+	/* background-color: #f3f3f3; */
+}
+input {
+    max-width: 250px;
+    height: 30px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid rgb(112, 112, 112);
+    outline: none;
+    padding-left: 5px;
+}
+textarea {
+    color: #666655;
+	border: 1px solid rgb(112, 112, 112);
+    max-width: 300px;
+    width: 100%;
+    outline: none;
+    font-size: 12px;
+    text-align: left;
+	background-color: #ffffff;
+    height: 36px;
+    border-radius: 3px;
+    resize: none;
+    padding: 3px;
+}
+button {
+    padding: 3px 10px;
+    border: 1px solid #178e17;
+    background-color: #178e17;
+    max-width: 150px;
+    height: 25px;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.editcontainer {
+    margin: 0 auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+#formwidth {
+    margin: 0 auto;
+    max-width: 320px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 50%;
+}
+label {
+    font-size: 14px;
+    float: left;
+    padding: 3px 0px;
+    margin-top: 10px;
+}
+input {
+    max-width: 320px;
+    height: 30px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid rgb(112, 112, 112);
+    outline: none;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+   
+    table{
+		width: 100%;
+		border-collapse: collapse;
+		width: 312px;
+		margin: 0 auto;
+	}
+
+	table, table tbody, table tr, table td{
+		display: block;
+		text-align: left;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .fileup {
+        display: block;
+        float:left;
+        position:relative;
+    }
+    .sltleft {
+        float:left;
+        max-width: 200px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .fileup2 {
+        display: block;
+        float:left;
+        position:relative;
+        margin-left: -20px;
+    }
+}
